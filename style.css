@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* precisamos escolher fonte */
+    background-color: #fdfdfd;
+    color: #333;
+    line-height: 1.6;
+    padding: 2em;
+}
+
+header {
+    background: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 11%,
+        rgba(208, 222, 33, 1) 22%,
+        rgba(79, 220, 74, 1) 33%,
+        rgb(63, 218, 197) 44%,
+        rgba(47, 201, 226, 1) 55%,
+        rgba(28, 127, 238, 1) 66%,
+        rgba(95, 21, 242, 1) 77%,
+        rgba(186, 12, 248, 1) 88%,
+        rgba(251, 7, 217, 1) 100%
+    );
+    color: white;
+    padding: 1.5em;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.5em;
+}
+
+header a {
+    font-size: 1.2rem;
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.4s ease;
+}
+
+header a:hover {
+    color: #000000;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+}
+
+.texto {
+    margin: 0 auto;
+    background-color: #eeeeee;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.texto p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+footer {
+    font-size: 1.1rem;
+    padding: 1.5em;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(117, 69, 194);
+    text-decoration: none;
+    transition: color 0.4s ease;
+}
+
+footer a:hover {
+    color: rgb(72, 5, 158);
+}
