@@ -11,10 +11,20 @@
     <header>
         <h1><a href="../index.html">Orgulho LGBT</a></h1>
 
-        <a href="../index.html">Página Inicial</a> |
-        <a href="sigla.html">Siglas</a> | 
-        <a href="instituicao.html">Instituições</a>
+        <a class="links" href="../index.html">Página Inicial</a> <span>|</span>
+        <a class="links" href="sigla.html">Siglas</a> <span>|</span> 
+        <a class="links" href="instituicao.html">Instituições</a>
     </header>
+    
+    <div class="dropdown">
+        <button class="dropbtn" onclick="dropdown()">Menu</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="../index.html">Página Inicial</a> 
+            <a href="sigla.html">Siglas</a> 
+            <a href="instituicao.html">Instituições</a>
+        </div>
+    </div>
+
 
     <hr>
 
@@ -82,5 +92,6 @@
     <footer>
         <p>Feito por <a href="https://github.com/enchedev">EncheDev</a></p>
     </footer>
+    <script src="../script.js"></script>
 </body>
 </html>
