@@ -196,6 +196,14 @@ footer a:hover {
     display: block;
     }
 
+    .texto {
+        padding: 1.2em;
+    }
+
+    figure figcaption {
+        font-size: 0.9rem;
+    }
+
     .links{
         display: none;
     }
